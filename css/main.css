@@ -3,7 +3,7 @@
     background-color: #3399CC;
     color: #ffffff;
     font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
-    margin: 3rem 20rem;
+    margin: auto;
     width: 1350px;
     height: 900px;
 }
@@ -28,11 +28,12 @@
     height: 145px;
     line-height: 2;
     padding-top: 20px;
+    opacity: 0.6;
 }
 
 .cities p {
     margin: 0;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 .wi {
@@ -42,10 +43,6 @@
 .title {
     padding-left: 225px;
     font-weight: 100;
-}
-
-.title p {
-    font-size: 2rem;
 }
 
 .cities li:nth-child(1) {
@@ -101,4 +98,8 @@
 .cities li:nth-child(11) {
     background-color: #666699;
     width: 100%;
+}
+
+.cities li:hover {
+    opacity: 1;
 }
